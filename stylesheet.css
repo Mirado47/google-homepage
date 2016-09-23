@@ -1,0 +1,45 @@
+img {
+display:block;
+margin: auto;
+position: absolute;
+top: 50%;
+left: 20px;
+right: 20px;
+height: 620px;
+margin-top: -70px;
+padding: 20px;	
+}
+#input {
+  background-color: #fff;
+  border: 1px solid rgb(185,185,185);
+  border-radius: 1px;
+  border-top-color: rgb(160,160,160);
+  cursor: text;
+  display: inline-block;
+  font: 18px arial,sans-serif;
+  
+  line-height: 36px;
+  max-width: 672px;
+  position: relative;
+  width: 618px;
+  display: inline-block;
+  vertical-align: middle;
+  margin:auto
+}
+#search {
+  background-color: #fff;
+  border: 1px solid rgb(185,185,185);
+  border-radius: 1px;
+  border-top-color: rgb(160,160,160);
+  cursor: text;
+  display: inline-block;
+  font: 18px arial,sans-serif;
+  height: 36px;
+  line-height: 36px;
+  max-width: 672px;
+  position: relative;
+  width: 618px;
+  display: inline-block;
+  vertical-align: middle;
+    margin:auto
+}
