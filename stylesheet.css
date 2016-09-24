@@ -1,28 +1,19 @@
 #logo {
 display:block;
-margin: auto;
 height: 160px;
-margin:200px auto;
+margin:200px auto auto auto;
+
 
 }
- /*(div for searchbar)#search {
-    display:block;
-    margin: 0 auto;
-    position: absolute;
-    top: 75%;
-    left: 20px;
-    right: 20px;
-    height: 26px;
-    margin-top: -70px;
-    padding: 20px;
-    width:600px;
-    
-} */
-#search{
+ 
+.search{
     position:relative;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    width: 520px;
+    background-color: #fff;
+  
     
 }
 #input {
@@ -32,21 +23,29 @@ margin:200px auto;
   border-top-color: rgb(160,160,160);
   box-sizing:  border-box;
   cursor: text;
-  display: block;
+  display: inline-block;
   font: 18px arial,sans-serif;
   height: 36px;
   line-height: 36px;
   max-width: 618px;
   position: relative;
-  width: 520px;
+  width: 100%;
   vertical-align: middle;
-  margin:-220px auto;
-  
-  
+  margin: auto; 
+  background-image:url(http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png);   
+  background-position:98% 50% ;   
+  background-repeat:no-repeat; 
+  background-size: 1em;
+  padding:8px;
     
 }
-#mic {
-position: relative; 
-margin:auto;
-    left:50%;
-}
+
+
+
+
+
+    
+    
+
+
+    
