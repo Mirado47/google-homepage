@@ -1,15 +1,11 @@
-img {
+#logo {
 display:block;
-margin: 0 auto;
-position: absolute;
-top: 25%;
-left: 20px;
-right: 20px;
+margin: auto;
 height: 160px;
-margin-top: -70px;
-padding: 20px;	
+margin:200px auto;
+
 }
-/*#input {
+ /*(div for searchbar)#search {
     display:block;
     margin: 0 auto;
     position: absolute;
@@ -21,26 +17,36 @@ padding: 20px;
     padding: 20px;
     width:600px;
     
-} 
-*/
+} */
+#search{
+    position:relative;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
 #input {
   background-color: #fff;
   border: 1px solid rgb(185,185,185);
   border-radius: 1px;
   border-top-color: rgb(160,160,160);
+  box-sizing:  border-box;
   cursor: text;
-  display: inline-block;
+  display: block;
   font: 18px arial,sans-serif;
   height: 36px;
   line-height: 36px;
-  max-width: 672px;
-  position: absolute;
-  width: 618px;
-  display: inline-block;
+  max-width: 618px;
+  position: relative;
+  width: 520px;
   vertical-align: middle;
-    margin:auto;
-  top:33%;
-  left:33%;
+  margin:-220px auto;
+  
   
     
+}
+#mic {
+position: relative; 
+margin:auto;
+    left:50%;
 }
