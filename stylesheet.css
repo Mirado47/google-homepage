@@ -41,6 +41,33 @@ margin:200px auto auto auto;
 }
 
 
+.topbar {
+    position:absolute;
+    top: 0px;
+    right:0px;
+    padding:20px;
+     
+}
+
+.navbar {
+  text-decoration: none;
+  padding:10px;
+  display:inline-block;
+  vertical-align: middle;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+#ninebox{
+    
+    
+}
+#myface{
+    border-radius:50%;
+}
+a, a:visited{
+    color: grey;
+}
 
 
 
